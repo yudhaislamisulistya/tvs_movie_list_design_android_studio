@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeV23" parent="Theme.AppCompat.Light">
+        <item name="android:statusBarColor">#303960</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#303960</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#303960</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="RegisterTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#303960</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDark"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Hai!"
+            android:textColor="#fff"
+            android:fontFamily="@font/kanit_bold"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="30dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="@string/content"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/button_accent"
+                android:drawableEnd="@drawable/ic_open_in_new_black_24dp"
+                android:text="Know More "
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/button_accent_invert"
+                android:drawableStart="@drawable/ic_local_phone_black_24dp"
+                android:text=" Contact Me"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10dp">
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/yudha" />
+
+        <TextView
+            android:fontFamily="@font/kanit_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yudha Islami Sulistya"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorDark"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

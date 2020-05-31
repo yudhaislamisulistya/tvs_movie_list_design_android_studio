@@ -1,0 +1,165 @@
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/shape_linear_layout"
+    android:layout_gravity="start"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.github.siyamed.shapeimageview.RoundedImageView
+        app:siRadius="6dp"
+        android:id="@+id/IV_ThumbnailNowPlaying"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mov2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        >
+
+        <TextView
+            android:id="@+id/TV_TitleNowPlaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kajillionaire (2020)"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/kanit_bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/TV_MinNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="106 Menit"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="  -  "/>
+
+            <TextView
+                android:id="@+id/TV_GenreNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Crime | Horror"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Direktur"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_DirecturNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Miranda July"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Pemeran"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_StarsNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Evan Rachel Wood, Debra Winger, Gina Rodriguez, Diana Maria Riva"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="Tayang"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text=":  "/>
+
+            <TextView
+                android:id="@+id/TV_PlayNowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/kanit_medium"
+                android:textSize="10dp"
+                android:text="19 Juni 2020"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

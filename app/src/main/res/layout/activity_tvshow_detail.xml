@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tv_shows.TVShowsActivity"
+    android:background="@color/colorDark">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/detail_tvshow_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="245dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/gradient_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/detail_tvshow_cover"
+            app:layout_constraintEnd_toEndOf="@+id/detail_tvshow_cover"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/detail_tvshow_cover" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/play_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="@color/colorPrimary"
+            app:srcCompat="@drawable/ic_play_arrow_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/detail_tvshow_img"
+            android:layout_width="125dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/themartian"
+            app:layout_constraintBottom_toBottomOf="@+id/detail_tvshow_cover"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_cover"
+            app:layout_constraintVertical_bias="0.284"
+            app:siRadius="6dp" />
+
+        <TextView
+            android:id="@+id/detail_tvshow_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_tvshow_img"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_cover" />
+
+        <TextView
+            android:id="@+id/detail_tvshow_creator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Kreator: Yudha Islami Sulistya"
+            android:textSize="10dp"
+
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_tvshow_img"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_title" />
+
+        <TextView
+            android:id="@+id/detail_tvshow_season"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Season: 5"
+            android:textSize="10dp"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_tvshow_img"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_creator" />
+
+        <TextView
+            android:id="@+id/detail_tvshow_episode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Episode: 73"
+            android:textSize="10dp"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_tvshow_img"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_season" />
+
+        <TextView
+            android:id="@+id/detail_tvshow_genre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Genre: Animation, Adventure, Comedy"
+            android:textSize="10dp"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_tvshow_img"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_episode" />
+
+        <TextView
+            android:id="@+id/detail_tvshow_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Duration: 1h 47min "
+            android:textSize="10dp"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_tvshow_img"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_genre" />
+
+        <TextView
+            android:id="@+id/detail_tvshow_release"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Release:  23 November 2016 (USA)"
+            android:textSize="10dp"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/detail_tvshow_img"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_duration" />
+
+
+
+        <TextView
+            android:id="@+id/detail_rate"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/kanit_bold"
+            android:textAlignment="center"
+            android:text="7.6/10"
+            android:textColor="@color/colorWhite"
+            android:textSize="14dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_img" />
+
+        <TextView
+            android:id="@+id/detail_studio"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/kanit_bold"
+            android:textAlignment="center"
+            android:text="Universal Pictures"
+            android:textColor="@color/colorWhite"
+            android:textSize="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_rate" />
+
+        <TextView
+            android:id="@+id/detail_synopssis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/kanit_bold"
+            android:text="Sinopsis"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_studio" />
+
+
+
+        <TextView
+            android:id="@+id/detail_tvshow_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/kanit_medium"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/simple_text"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_synopssis" />
+
+        <TextView
+            android:id="@+id/detail_tv_cast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/kanit_bold"
+            android:text="Cast"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tvshow_desc" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RV_DetailTVShowCast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_tv_cast" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

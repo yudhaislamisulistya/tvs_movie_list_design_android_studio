@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Asistensi1Dan2Tahap1</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="simple_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="title_now_playing">Now Playing</string>
+    <string name="title_upcoming">Upcoming</string>
+    <string name="title_profile">Profile</string>
+    <string name="content">This is a another waste of time by an @idiot.
+        Made for tutorial video on 19th of March 2018. I am a UI-UX full stack Designer and Developer.
+        I Usually Build Web Apps and I am New in Android but I will Master it Soon.</string>
+
+    <string name="synopsisTrollsWorldTour">
+        Petualangan Poppy (Anna Kendrick) dan Branch (Justin Timberlake) berlanjut. Kali ini mereka menemukan bahwa ada enam suku troll berbeda yang tersebar di enam negeri berbeda.\nSetiap suku juga dikhususkan untuk enam jenis musik yang berbeda. Queen Barb (Rachel Bloom) dan ayahnya, King Thrash (Ozzy Osbourne) dari suku Rock ingin memusnahkan semua genre musik agar bisa berkuasa.\nMisi Poppy dan Branch kali ini menyatukan semua suku dan mengagalkan keinginan suku musik Rock.
+    </string>
+</resources>
