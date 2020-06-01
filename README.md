@@ -118,18 +118,18 @@
 | ![enter image description here](https://github.com/yudhaislamisulistya/tvs_movie_list_design_android_studio/blob/master/detail_movie.jpg?raw=true) | ![enter image description here](https://github.com/yudhaislamisulistya/tvs_movie_list_design_android_studio/blob/master/detail_tv_show.jpg?raw=true) | ![enter image description here](https://github.com/yudhaislamisulistya/tvs_movie_list_design_android_studio/blob/master/upcoming.jpg?raw=true) | ![enter image description here](https://github.com/yudhaislamisulistya/tvs_movie_list_design_android_studio/blob/master/now_playing.jpg?raw=true) | ![enter image description here](https://github.com/yudhaislamisulistya/tvs_movie_list_design_android_studio/blob/master/profile_with_action_bar.jpg?raw=true) |
 
 ## 4. Menerapkan Intent Implisit dan Explisit
-| Implisit | Explisit |
+| Explisit | Implisit |
 |--|--|
 | ![enter image description here](https://media.giphy.com/media/kGXaxvyQl63a6hWC5L/giphy.gif) | ![enter image description here](https://media.giphy.com/media/UtybUsYVl6UNfwJw87/giphy.gif) |
 
 
-#### Contoh Implementasi Intent Implisit
+#### Contoh Implementasi Intent Explisit
 ```java
 Intent login =new Intent(SplashScreen.this, Login.class);  
 startActivity(login);
 ```
 
-#### Contoh Implementasi Intent Explisit
+#### Contoh Implementasi Intent Implisit
 ```java
 Intent streaminLinkYoutube = new Intent(Intent.ACTION_VIEW, Uri.parse(movieStreamingLink));  
 startActivity(streaminLinkYoutube);
