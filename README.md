@@ -120,7 +120,7 @@
 ## 4. Menerapkan Intent Implisit dan Explisit
 | Implisit | Explisit |
 |--|--|
-| ![enter image description here](https://im4.ezgif.com/tmp/ezgif-4-bb5f3bb75430.gif) | ![enter image description here](https://im4.ezgif.com/tmp/ezgif-4-3b693ca63f40.gif) |
+| ![enter image description here](https://media.giphy.com/media/kGXaxvyQl63a6hWC5L/giphy.gif) | ![enter image description here](https://media.giphy.com/media/UtybUsYVl6UNfwJw87/giphy.gif) |
 
 
 #### Contoh Implementasi Intent Implisit
@@ -138,7 +138,7 @@ startActivity(streaminLinkYoutube);
 ## 5. Menerapkan Animation
 | Animation |
 |--|
-| ![enter image description here](https://im4.ezgif.com/tmp/ezgif-4-5e0946f2e409.gif) |
+| ![enter image description here](https://media.giphy.com/media/lrtS7pJBJme2IUGNFs/giphy.gif) |
 
 #### Contoh Implementasi Animiation
 ```java
@@ -156,7 +156,7 @@ play_fab.setAnimation(AnimationUtils.loadAnimation(this,R.anim.scale_animation))
 ## 8. Splash Screen
 | Splash Creen |
 |--|
-| ![enter image description here](https://im4.ezgif.com/tmp/ezgif-4-1e90631f6515.gif) |
+| ![enter image description here](https://media.giphy.com/media/WTcivpmNs7MlkhjQJp/giphy.gif) |
 
 ```java
 package com.example.asistensi1dan2tahap1.ui.splash_screen;  
